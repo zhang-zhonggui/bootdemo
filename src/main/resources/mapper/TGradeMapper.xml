@@ -11,6 +11,8 @@
         <!--@mbg.generated-->
         id, gname
     </sql>
+
+
     <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
         <!--@mbg.generated-->
         select
@@ -61,8 +63,6 @@
         set gname = #{gname,jdbcType=VARCHAR}
         where id = #{id,jdbcType=INTEGER}
     </update>
-
-
     <select id="listGrade" resultMap="BaseResultMap">
         select *
         from t_grade
