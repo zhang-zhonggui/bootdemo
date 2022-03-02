@@ -64,6 +64,7 @@
 
 
     <select id="listGrade" resultMap="BaseResultMap">
-        select * from  t_grade
+        select *
+        from t_grade
     </select>
 </mapper>

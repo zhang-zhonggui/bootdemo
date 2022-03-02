@@ -1,6 +1,7 @@
 package com.zzg.boot.timetest;
 
 
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,8 +11,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Student {
-//    @Scheduled(fixedDelay = 10000)
-//    public void test1(){
-//        System.out.println("启动器");
-//    }
+    @Scheduled(fixedDelay = 10000)
+    public void test1(){
+        System.out.println("启动器");
+    }
 }

@@ -1,6 +1,6 @@
 package com.zzg.boot.controller;
 
-import com.zzg.boot.impl.StudentServiceImpl;
+import com.zzg.boot.service.impl.StudentServiceImpl;
 import com.zzg.boot.result.AjaxResult;
 import com.zzg.boot.service.TGradeService;
 import org.springframework.beans.factory.annotation.Autowired;

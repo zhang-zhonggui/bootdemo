@@ -1,4 +1,4 @@
-package com.zzg.boot.impl;
+package com.zzg.boot.service.impl;
 
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class StudentServiceImpl {
     @Async
     @Transactional
-    public String begin(){
+    public String begin() {
         System.out.println("游戏开始了");
         try {
             //当前线程休眠十秒

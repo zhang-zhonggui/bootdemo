@@ -13,9 +13,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @date ：2022/2/28 11:35
  */
 
-@EnableScheduling
-@EnableAsync
-@EnableTransactionManagement
+@EnableScheduling//定时器
+@EnableAsync//异步
+@EnableTransactionManagement//事务管理
 @SpringBootApplication
 @MapperScan("com.zzg.boot.mapper")
 public  class App {
