@@ -35,7 +35,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.27</version>
         </dependency>
-        <!--druid配置包-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
@@ -64,11 +63,5 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
-
-        <!--        <dependency>-->
-        <!--            <groupId>com.alibaba</groupId>-->
-        <!--            <artifactId>druid-spring-boot-starter</artifactId>-->
-        <!--            <version>1.1.17</version>-->
-        <!--        </dependency>-->
     </dependencies>
 </project>
