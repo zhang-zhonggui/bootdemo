@@ -1,4 +1,4 @@
-package com.zzg.timetest;
+package com.zzg.boot.timetest;
 
 
 import org.springframework.stereotype.Component;

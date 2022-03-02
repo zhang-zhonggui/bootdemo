@@ -1,4 +1,4 @@
-package com.zzg.aop;
+package com.zzg.boot.aop;
 
 import com.sun.istack.internal.logging.Logger;
 import org.aspectj.lang.JoinPoint;
@@ -25,7 +25,7 @@ public class MyAop {
     private static Logger log = Logger.getLogger(MyAop.class);
     private long start = 0;
 
-    @Pointcut("execution(* com.zzg.controller.*.*(..))")
+    @Pointcut("execution(* com.zzg.boot.controller.*.*(..))")
     public void aa() {
 
     }
